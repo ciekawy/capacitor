@@ -1,4 +1,4 @@
-import Foundation
+import UIKit
 
 @objc(CAPApplicationDelegateProxy)
 public class ApplicationDelegateProxy: NSObject, UIApplicationDelegate {
@@ -11,7 +11,9 @@ public class ApplicationDelegateProxy: NSObject, UIApplicationDelegate {
             "url": url,
             "options": options
         ])
-        NotificationCenter.default.post(name: NSNotification.Name.CDVPluginHandleOpenURL, object: url)
+
+        //TODO: Deal with this error
+        //NotificationCenter.default.post(name: NSNotification.Name.CDVPluginHandleOpenURL, object: url)
         lastURL = url
         return true
     }

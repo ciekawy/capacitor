@@ -1,6 +1,5 @@
 import UIKit
 import WebKit
-import Cordova
 
 @objc open class CAPBridgeViewController: UIViewController {
     private var capacitorBridge: CapacitorBridge?

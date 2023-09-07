@@ -1,3 +1,5 @@
+import UIKit
+
 /**
  Notificaton types for NotificationCenter and NSNotificationCenter
 

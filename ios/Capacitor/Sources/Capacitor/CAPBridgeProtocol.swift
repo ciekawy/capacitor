@@ -1,7 +1,7 @@
 import Foundation
 import WebKit
 
-@objc public protocol CAPBridgeProtocol: NSObjectProtocol {
+public protocol CAPBridgeProtocol: NSObjectProtocol {
     // MARK: - Environment Properties
     var viewController: UIViewController? { get }
     var config: InstanceConfiguration { get }

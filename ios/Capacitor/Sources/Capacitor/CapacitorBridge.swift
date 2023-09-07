@@ -1,9 +1,8 @@
 import Foundation
 import Dispatch
 import WebKit
-import Cordova
 
-internal typealias CapacitorPlugin = CAPPlugin & CAPBridgedPlugin
+//internal typealias CapacitorPlugin = CAPPlugin & CAPBridgedPlugin
 
 /**
  An internal class adopting a public protocol means that we have a lot of `public` methods
