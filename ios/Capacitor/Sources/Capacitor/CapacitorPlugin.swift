@@ -12,7 +12,7 @@ struct CapacitorEvent {
 }
 
 
-class CapacitorPlugin  {
+public class CAPPlugin  {
     var webView: WKWebView?
     var bridge: CAPBridgeProtocol? // TODO: Change this to fit more useful protocol
     

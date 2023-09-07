@@ -1,3 +1,5 @@
+//TODO: do some available magic in here to enable OSLog/Logger
+
 public class CAPLog {
     public static var enableLogging: Bool = true
 

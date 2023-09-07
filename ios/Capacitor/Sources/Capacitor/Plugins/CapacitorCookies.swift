@@ -1,4 +1,5 @@
 import Foundation
+import WebKit
 
 @objc(CAPCookiesPlugin)
 public class CAPCookiesPlugin: CAPPlugin {

@@ -2,7 +2,8 @@ import Foundation
 import Dispatch
 import WebKit
 
-//internal typealias CapacitorPlugin = CAPPlugin & CAPBridgedPlugin
+// TODO: Undo this alias
+internal typealias CapacitorPlugin = CAPPlugin & CAPBridgedPlugin
 
 /**
  An internal class adopting a public protocol means that we have a lot of `public` methods

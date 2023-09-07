@@ -6,11 +6,6 @@
 //  Copyright © 2023 Drifty Co. All rights reserved.
 //
 
-// TODO: Temporary only
-class CAPPluginMethod {
-    let name = "Name"
-}
-
 protocol CAPBridgedPlugin {
     var identifier: String { get }
     var jsName: String { get }
